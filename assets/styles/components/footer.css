@@ -1,0 +1,28 @@
+.footer {
+    padding: 25px 0;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.8);
+    background: linear-gradient(90.00deg, rgb(255, 140, 48), rgb(159, 71, 0) 100%);
+}
+
+.footer__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.footer__list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer__descr {
+    color: var(--whiteColor);
+    font-family: var(--com);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 1%;
+    text-align: right;
+}
